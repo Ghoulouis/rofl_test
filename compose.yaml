@@ -1,0 +1,6 @@
+services:
+    python-telegram-bot:
+        build: .
+        image: "docker.io/ghoulouis/telegram-bot"
+        environment:
+            - TOKEN=${TOKEN}
